@@ -1,0 +1,15 @@
+import React from 'react'
+
+function About() {
+    return (
+        <p className='about-page mt-2'>Pokémon is a Japanese media franchise consisting of video games, animated series and films, a trading card game, and other related media. The franchise takes place in a shared universe in which humans co-exist with creatures known as Pokémon, a large variety of species endowed with special powers. The franchise's target audience is children aged 5 to 12, but it is known to attract people of all ages.
+        <hr />
+        The franchise originated as a pair of role-playing games developed by Game Freak, from an original concept by its founder, Satoshi Tajiri. Released on the Game Boy on February 27, 1996, the games became sleeper hits and were followed by manga series, a trading card game, and anime series and films. From 1998 to 2000, Pokémon was exported to the rest of the world, creating an unprecedented global phenomenon dubbed "Pokémania". By 2002, the craze had ended, after which Pokémon became a fixture in popular culture, with new products being released to this day. In the summer of 2016, the franchise spawned a second craze with the release of Pokémon Go, an augmented reality game developed by Niantic. Pokémon has since been estimated to be the world's highest-grossing media franchise and one of the best-selling video game franchises.
+        <hr />
+        Pokémon has an uncommon ownership structure. Unlike most IPs, which are owned by one company, Pokémon is jointly owned by three: Nintendo, Game Freak, and Creatures. Game Freak develops the core series role-playing games, which are published by Nintendo exclusively for their consoles, while Creatures manages the trading card game and related merchandise, occasionally developing spin-off titles. The three companies established The Pokémon Company in 1998 to manage the Pokémon property within Asia. The Pokémon anime series and films are co-owned by Shogakukan. Since 2009, The Pokémon Company International, a subsidiary of TPC, has managed the franchise in all regions outside of Asia. 
+        <hr />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsum suscipit, accusantium est non aut earum dolore atque eum voluptas quos nihil tempora, esse molestias adipisci quod quo, cumque expedita beatae totam obcaecati eligendi cupiditate porro neque. Quisquam fuga possimus facilis repellendus dolorem! Maxime, maiores numquam! Porro nostrum aut pariatur autem. Nihil maxime fugiat voluptatibus animi. Porro, minus dolore cum aliquid autem accusamus. Est neque pariatur corrupti nostrum architecto quisquam quasi, sequi sit quam maiores dicta nesciunt, debitis laudantium nulla inventore quaerat, ipsa consectetur maxime dolorum adipisci error optio? Repudiandae asperiores, nobis molestias id repellendus corrupti totam? Sequi, accusantium consectetur.</p>
+    )
+}
+
+export default About
