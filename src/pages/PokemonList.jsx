@@ -1,5 +1,5 @@
 import { useFetchPokemonsQuery } from '../store/pokemonApi/pokemonSlicer';
-import PokemonCard from './PokemonCard';
+import PokemonCard from '../components/PokemonCard';
 import Loading from '../components/Loading';
 import { useState } from 'react';
 import Pagination from '../pagination/Pagination';
