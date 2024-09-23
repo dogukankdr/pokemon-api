@@ -5,6 +5,7 @@ import PokemonList from './pages/PokemonList'
 import Container from './components/Container'
 import About from './pages/About'
 import Footer from './components/Footer'
+import PokemonDetail from './pages/PokemonDetail'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/pokemonlist' element={<PokemonList />} />
+          <Route path='/pokemondetail/:pokemonName' element={<PokemonDetail />} />
           <Route path='/about' element={<About />} />
         </Routes>
       </Container>

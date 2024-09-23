@@ -8,7 +8,8 @@ function PokemonList() {
   const [page, setPage] = useState(1);
   const pokemonsPerPage = 10;
   const { data, error, isLoading } = useFetchPokemonsQuery({ offset: (page - 1) * pokemonsPerPage, pokemonsPerPage });
-
+  console.log(data);
+  
   if (isLoading) return <Loading />;
   if (error) return <p>Error loading Pokémon list</p>;
 
@@ -23,7 +24,7 @@ function PokemonList() {
       />
       <div className='row pokemon-list'>
         {data.results.map((pokemon) => (
-          <PokemonCard key={pokemon.name} pokemonUrl={pokemon.url} />
+          <PokemonCard key={pokemon.name} pokemonUrl={pokemon.url} pokemon={pokemon} />
         ))}
       </div>
       <Pagination

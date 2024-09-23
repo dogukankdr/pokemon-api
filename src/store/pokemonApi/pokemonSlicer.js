@@ -18,20 +18,31 @@ export const pokemonSlice = createApi({
                     return `/pokemon`;
                 }
             }),
-    
+
             fetchPokemonsImg: builder.query({
-                query(pokemonId) {
-                    return `pokemon/${pokemonId}/`;
+                query(pokemonName) {
+                    return `pokemon/${pokemonName}/`;
                 }
             }),
 
             fetchPokemonStats: builder.query({
-                query(pokemonId) {
-                    return `pokemon/${pokemonId}/`;
+                query(pokemonName) {
+                    return `pokemon/${pokemonName}/`;
+                }
+            }),
+            fetchPokemonDetail: builder.query({
+                query(pokemonName) {
+                    return `pokemon/${pokemonName}/`;
                 }
             })
         };
     }
 });
 
-export const { useFetchPokemonsQuery, useFetchPokemonsImgQuery, useFetchPokemonStatsQuery, useFetchNumberOfPokemonsQuery } = pokemonSlice;
+export const {
+    useFetchPokemonsQuery,
+    useFetchPokemonsImgQuery,
+    useFetchPokemonStatsQuery,
+    useFetchNumberOfPokemonsQuery,
+    useFetchPokemonDetailQuery
+} = pokemonSlice;

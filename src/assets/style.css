@@ -51,10 +51,15 @@ body {
 
 .pokemon-card-title {
     padding-top: 5px !important;
+    text-decoration: none !important;
     display: flex;
     justify-content: center;
-    text-transform: uppercase;
     padding-top: 10px;
+}
+
+.pokemon-card a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .pokemon-img {
@@ -101,4 +106,31 @@ body {
     margin: 0 10px;
     padding: 10px;
     border-radius: 5px;
+}
+
+/* detail page */
+
+.pokemon-detail-container {
+    padding-bottom: 196px !important;
+    justify-content: center;
+    background-color: #fff200;
+    border-radius: 15px;
+}
+
+.pokemon-detail-title {
+    text-decoration: underline;
+    margin:25px 0;
+}
+
+.pokemon-detail-img {
+    max-width: 30rem;
+}
+
+.pokemon-details li{
+    list-style: none;
+}
+
+.audio-container p{
+    margin: 0;
+    color: red;
 }

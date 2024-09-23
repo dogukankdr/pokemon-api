@@ -11,7 +11,7 @@ function Navbar() {
             <div className="container-fluid">
                 <div className="collapse navbar-collapse m-2 ms-5" id="navbarNavAltMarkup">
                     <div className="navbar-nav d-flex align-items-center">
-                        <NavLink className="nav-link me-5 fs-4" to="/"><img className='navbar-logo' src="src/assets/images/pokemon.png" /></NavLink>
+                        <NavLink className="nav-link me-5 fs-4" to="/"><img className='navbar-logo' src="src/assets/images/pokemon.png"/></NavLink>
                         <NavLink className="nav-link fs-4 fw-bold" to="/">Home</NavLink>
                         <NavLink className="nav-link ms-5 fs-4 fw-bold" to="/pokemonlist">Pokémon List</NavLink>
                         <NavLink className="nav-link ms-5 fs-4 fw-bold" to="/about">About</NavLink>
